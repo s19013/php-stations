@@ -6,8 +6,8 @@ class Question
 {
     public function main(): array
     {
-        $a = ;
-        $b = ;
+        $a = 1;
+        $b = false;
 
         return [$a, $b];
     }
