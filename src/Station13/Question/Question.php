@@ -6,5 +6,10 @@ class Question
 {
     public function main(): void
     {
+        $car = new Car();
+
+        $car->turnRight();
+        $car->backLeft();
     }
 }
+
