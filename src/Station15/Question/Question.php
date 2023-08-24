@@ -6,6 +6,7 @@ class Question
 {
     public function main($multiplieds, $multiplier): array
     {
+        return (new Calculator)->multiply($multiplieds, $multiplier);
     }
 }
 
